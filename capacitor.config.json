@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "my-elise-city",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}

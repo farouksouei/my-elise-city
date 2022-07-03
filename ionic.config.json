@@ -1,0 +1,8 @@
+{
+  "name": "my-elise-city",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue",
+  "id": "48437471"
+}
