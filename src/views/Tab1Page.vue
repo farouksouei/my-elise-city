@@ -11,7 +11,7 @@
           <ion-title size="large">Map Placeholder</ion-title>
         </ion-toolbar>
       </ion-header>
-
+      <OpenLayerMap />
       <ExploreContainer name="Map page" />
     </ion-content>
   </ion-page>
@@ -27,6 +27,7 @@ import {
   IonContent,
 } from "@ionic/vue";
 import ExploreContainer from "@/components/ExploreContainer.vue";
+import OpenLayerMap from "../components/OpenLayerMap.vue";
 
 export default defineComponent({
   name: "Tab1Page",
@@ -37,6 +38,7 @@ export default defineComponent({
     IonTitle,
     IonContent,
     IonPage,
+    OpenLayerMap,
   },
 });
 </script>
