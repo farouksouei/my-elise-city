@@ -2,17 +2,17 @@
   <ion-page>
     <ion-header>
       <ion-toolbar>
-        <ion-title>Map</ion-title>
+        <ion-title>Informations</ion-title>
       </ion-toolbar>
     </ion-header>
     <ion-content :fullscreen="true">
       <ion-header collapse="condense">
         <ion-toolbar>
-          <ion-title size="large">Map Placeholder</ion-title>
+          <ion-title size="large">Informations</ion-title>
         </ion-toolbar>
       </ion-header>
 
-      <ExploreContainer name="Map page" />
+      <ExploreContainer name="Informations page" />
     </ion-content>
   </ion-page>
 </template>
@@ -29,7 +29,7 @@ import {
 import ExploreContainer from "@/components/ExploreContainer.vue";
 
 export default defineComponent({
-  name: "Tab1Page",
+  name: "Tab3Page",
   components: {
     ExploreContainer,
     IonHeader,
